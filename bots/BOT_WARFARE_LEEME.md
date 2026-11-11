@@ -10,7 +10,7 @@ Proyecto: https://github.com/ineedbots/iw5_bot_warfare
 |---|---|
 | `z_svr_bots.iwd` | El mod original, sin tocar (md5 f2a449f694af73a001af7b986a08ca24) |
 | `install.bat` | Instalador original de Windows: copia el `.iwd` a `%LOCALAPPDATA%\Plutonium\storage\iw5\` |
-| `README.txt` | Documentacion original del autor (menu, creditos, cambios de la 2.3.0) |
+| `README.md` | Documentacion original del autor, antes README.txt (menu, creditos, cambios de la 2.3.0) |
 | `parchar_iwd.py` | Genera una copia parcheada del `.iwd` (ver "Parches") |
 | `BOT_WARFARE_LEEME.md` | Este archivo |
 
