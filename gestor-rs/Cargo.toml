@@ -1,0 +1,19 @@
+[package]
+name = "gestor-servidor"
+version = "0.1.0"
+edition = "2024"
+description = "Gestor de servidores LAN de MW3 (Plutonium) con perfiles .cfg, bots y arranque nativo"
+
+[dependencies]
+eframe = "0.37"
+rfd = "0.18"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[target.'cfg(unix)'.dependencies]
+libc = "0.2"
+
+[profile.release]
+opt-level = "s"
+lto = "thin"
+strip = true

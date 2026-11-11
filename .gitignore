@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+*.bak*
+gestor_servidor.json
+gestor_servidor.log
+servidor-*.log
+console.log
